@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"> 
+  <title>Calculator</title> 
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js"></script>
+</head> 
+  <body> 
+ 
+  <form name="calculator" action="" onsubmit="result();return false;"> 
+    <div><h1>Calculator</h2></div>
+	<output name="Display" id="Display"></output> 
+    <fieldset> 
+       <input type="button" value=" 7 " onclick="toAdd('7')">
+       <input type="button" value=" 8 " onclick="toAdd('8')"> 
+       <input type="button" value=" 9 " onclick="toAdd('9')"> 
+       <input type="button" value=" + " onclick="toAdd('+')"> 
+       <input type="button" value=" 4 " onclick="toAdd('4')"> 
+       <input type="button" value=" 5 " onclick="toAdd('5')"> 
+       <input type="button" value=" 6 " onclick="toAdd('6')"> 
+       <input type="button" value=" - " onclick="toAdd('-')"> 
+       <input type="button" value=" 1 " onclick="toAdd('1')"> 
+       <input type="button" value=" 2 " onclick="toAdd('2')"> 
+       <input type="button" value=" 3 " onclick="toAdd('3')"> 
+       <input type="button" value=" * " onclick="toAdd('*')"> 
+       <input type="button" value=" 0 " onclick="toAdd('0')"> 
+       <input type="button" value=" . " onclick="toAdd('.')"> 
+       <input type="button" value="sqrt " onclick="Sonderfunktion('sqrt')"> 
+       <input type="button" value=" / " onclick="toAdd('/')"> 
+       <input type="reset"  value=" C "> 
+       <input id="resultButton" type="button" value=" = " onclick="result()"> 
+	 </fieldset>
+  </form> 
+ 
+  </body> 
+</html>
